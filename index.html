@@ -1,112 +1,82 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
-	<title>Extensioneers Mentoring</title>
-	<meta charset="utf-8">
+  <title>Bootstrap Website Tutorial</title>
+  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet"  href="style.css">
+ <link rel="stylesheet" href="https://unpkg.com/blaze/dist/blaze.colors.min.css">
+  <style>
+
+  </style>
 </head>
 <body>
-<nav class="navbar navbar">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">
-       <img src="icon.jpg" alt="Extensioneers Mentoring" style="width:40px;height:40px;border:0;margin-top: -10px;">
-      </a>
-    </div>
 
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Mentor by Name<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Mentor by Topic</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Topics <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Games</a></li>
-            <li><a href="#">Coding</a></li>
-            <li><a href="#">Health and Education</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Fourms</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Naughty Photos ;)</a></li>
-          </ul>
-        </li>
-      </ul>
-      <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Find a Mentor">
-        </div>
-        <button type="submit" class="btn btn-default">Search</button>
-      </form>
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/there_you_go.png" width="80px" height="80px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Donate</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Account <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Login</a></li>
-            <li><a href="#">Sign Out</a></li>
-            <li><a href="#">Register</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Discord ID</a></li>
-          </ul>
-        </li>
+		<li> <a href="#"> Home </a> </li>
+		<li> <a href="#"> Expert Mentors </a> </li>
+		<li> <a href="#"> Community </a> </li>
+		<li> <a href="#"> How it Works </a> </li>
+		<li> <a href="#"> ExtensioneersChallenge </a> </li>
+		<li> <a href="#"> Become a Mentor </a> </li>
+		<button id="sign" class="btn btn-danger pull-right">Sign Up</button>
+		<button id="login" class="btn btn-link pull-right">Log In</button>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
 
 
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ut justo vitae arcu viverra varius ac sit amet purus. Proin eleifend a tellus eget sodales. Mauris eget purus quam. Pellentesque non lacus in lectus dictum sodales imperdiet at ante. Suspendisse orci urna, iaculis eget tincidunt nec, pretium aliquam dolor. Aliquam ac dui imperdiet, imperdiet leo hendrerit, feugiat ante. Aenean non lobortis est. Praesent sit amet congue velit, ac convallis libero. Suspendisse consequat at ligula vel venenatis. Aenean quis semper dolor. In feugiat justo lobortis enim rutrum, et efficitur dolor tincidunt.
+</header>
 
-Ut interdum mi tristique, semper dui in, convallis diam. Suspendisse pretium dui quis rhoncus luctus. Donec eu orci nec velit rutrum fermentum ut vitae felis. Pellentesque quis est bibendum, dapibus leo in, gravida nunc. Sed ut arcu et justo tincidunt fermentum. Donec quis justo vel quam fermentum pellentesque a in est. Duis eu venenatis risus.
+<!-- First Container -->
+		<div class="video-section">
+			<video id="video-elem" preload="auto" autoplay="true" loop="loop" muted="muted" poster="videoGIF.gif"> 
+				<source src="video.mp4" type="video/mp4">
+				Video not supported
+			</video>
+            
+            <div class="video-overlay">
+                <h1>Plenty of Opportunities All Just For a Couple of Clicks</h1>
 
-In hac habitasse platea dictumst. Etiam at leo non diam faucibus suscipit. Aliquam eleifend ac erat at ornare. Nullam leo urna, fringilla ut lacus a, bibendum sagittis eros. In augue elit, porta lacinia consequat quis, vulputate aliquet enim. Fusce sit amet aliquam sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris sit amet risus urna. Aliquam erat volutpat. Proin eu ipsum pharetra, sollicitudin nisi ut, interdum odio. Quisque at ligula sed ipsum vehicula finibus. Etiam et purus congue, hendrerit metus ut, sagittis metus. Phasellus sed enim eu lacus vestibulum viverra ac id purus. Suspendisse potenti.
+            </div>
+		</div>
 
-Nullam mollis finibus urna, eu vestibulum arcu rhoncus ut. Cras aliquam lorem et ex congue vulputate. Fusce et est dignissim, fermentum eros vitae, porta libero. Curabitur id aliquam libero, nec hendrerit arcu. Nam et nulla id ex tincidunt gravida. Curabitur commodo venenatis mauris a tincidunt. Vivamus vulputate scelerisque odio, non lacinia odio iaculis nec. Nunc facilisis finibus nulla nec dictum. Aliquam turpis nibh, varius ut augue eget, scelerisque ultricies massa. Quisque sit amet leo vestibulum, tincidunt leo in, efficitur elit. Donec sit amet urna at elit porttitor sodales. Ut non sollicitudin massa. Sed sollicitudin pulvinar lectus sed accumsan.
-
-Nullam nec est auctor, laoreet nibh sed, volutpat est. Donec venenatis bibendum velit. Aliquam sit amet tincidunt nisl. Sed consequat nunc id iaculis aliquam. Sed blandit risus gravida diam imperdiet consequat. Donec vulputate efficitur augue, vitae efficitur augue feugiat vitae. Nam sed urna eget turpis rhoncus facilisis. Donec volutpat vehicula enim, id lobortis ipsum euismod eu.
-
-Fusce vitae justo sapien. Mauris egestas dolor ligula, id laoreet est mollis ut. Sed sed placerat tortor, nec porttitor tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in neque neque. Sed lobortis, risus id bibendum varius, dui ipsum fringilla sem, sit amet mollis justo sapien eget mauris. Aliquam augue dolor, imperdiet quis sem ac, aliquet scelerisque mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam a purus eu ex suscipit varius. Nulla facilisi. Duis ut scelerisque ligula, non tristique lectus. Donec in tortor et sapien vestibulum tempor a eu magna. Fusce gravida ullamcorper nulla sit amet tempus.
-
-Phasellus dapibus elementum risus, eget efficitur risus mollis et. Morbi egestas condimentum enim ut laoreet. Duis sed velit dui. Pellentesque vulputate est odio, sit amet lobortis urna vulputate eu. Curabitur et nulla sit amet urna facilisis euismod vitae at lacus. In fringilla justo id congue tincidunt. Ut venenatis ligula non volutpat fringilla. Nunc cursus porta accumsan. Maecenas quis accumsan orci.
-
-Quisque pretium lacus felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut in placerat sem. Sed vel leo venenatis, faucibus mauris et, consequat ante. Maecenas in purus ac magna rutrum ornare. Quisque mattis lectus orci, at ullamcorper lectus feugiat et. Fusce nisl est, accumsan vitae odio quis, vehicula facilisis libero. Sed laoreet elementum interdum. Cras ut nisl ex. Proin aliquet tempor tellus, ullamcorper euismod magna gravida non. Sed at fringilla sem. Maecenas consequat velit eget magna gravida sagittis. Suspendisse ut arcu eget enim viverra porta ac convallis lectus. Donec nec sapien nec enim tempus tempor. Aliquam ac tempus tellus.
-
-Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget mauris accumsan, posuere ipsum vehicula, egestas nisi. Nulla mi dui, egestas sed ornare eget, vestibulum id nisi. Fusce at felis et purus consectetur iaculis vel vel enim. Donec euismod, ligula ut luctus iaculis, justo ante sagittis augue, ut lobortis erat augue vitae felis. Pellentesque sollicitudin pretium pellentesque. Integer at eros eu ex cursus egestas. Morbi volutpat quis augue in tempor. Suspendisse potenti. Aliquam erat volutpat. Maecenas ornare quam ut nunc eleifend, mollis vehicula felis iaculis. Fusce ornare, sem a aliquam mollis, ligula enim malesuada nulla, ac aliquet mi nibh vel nisi. Ut feugiat at orci et hendrerit.
-
-Cras at justo vel ante scelerisque luctus sed ac orci. Cras porta tempor egestas. Mauris facilisis dignissim condimentum. Phasellus in nisl ut magna viverra pharetra. Sed elementum eu enim a vulputate. Cras aliquam feugiat lobortis. Vivamus nec mattis nibh, non pharetra justo. Nulla sit amet tristique odio. Nulla at lobortis elit, at faucibus velit. Suspendisse mollis purus at nisi ultricies congue. Duis a hendrerit elit. Phasellus porttitor dui at elit elementum posuere a eu massa. Nullam ullamcorper, magna at mollis cursus, libero tortor lacinia turpis, non congue quam est ac nunc. Praesent volutpat arcu diam, nec egestas arcu efficitur eu. Ut condimentum viverra sapien ac bibendum.
-
-Nullam at euismod felis. Morbi et enim dui. Fusce luctus urna at dui scelerisque euismod. Donec dictum sapien turpis. Cras quis ipsum non nulla volutpat suscipit tempor at tortor. Donec commodo sapien justo, elementum tristique quam consequat eu. Nunc sed tellus non quam malesuada commodo at sed ante. In dictum lectus id justo tincidunt tristique. In faucibus fermentum massa id semper. Pellentesque pellentesque rutrum imperdiet. Duis non enim sit amet est tempor tincidunt quis ac nunc. Sed vel dictum enim.
-
-Proin non mauris a est rutrum volutpat. Nullam aliquet, leo at consectetur consectetur, nibh augue vulputate odio, eget eleifend quam tellus vel nunc. Nulla fringilla ultricies elementum. Nunc dapibus quam sem, a condimentum lorem feugiat in. Donec imperdiet tempor arcu a gravida. Nullam mi elit, ullamcorper vel nunc vel, eleifend efficitur augue. Nulla volutpat id nisi et varius. Phasellus ac ornare diam. Nulla mattis sodales mauris, eget fermentum dui. Sed suscipit metus in tortor pulvinar auctor. Cras sodales sollicitudin lectus, id laoreet sem egestas et. Ut consectetur tristique tellus in accumsan.
-
-In dapibus magna ac enim eleifend venenatis. Sed nec eros et lorem tempus finibus. Duis posuere orci sit amet mattis maximus. Nam malesuada nunc quis urna egestas ultrices. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc hendrerit est a elit volutpat sagittis. Nullam eget est ac sapien elementum suscipit at eu nisi. Nunc urna tortor, condimentum venenatis arcu id, iaculis fermentum augue. Phasellus euismod ligula quis risus blandit dapibus. Sed ultricies commodo sodales. Nunc diam nisl, porta a lectus in, rutrum feugiat erat. Donec porta, diam ac vestibulum tempor, nunc sapien porttitor dui, a porttitor metus massa ac quam. Curabitur tempor ipsum at massa rutrum efficitur.
-
-Nullam vitae lorem non magna elementum porttitor ultrices nec odio. Curabitur placerat maximus ligula, eget facilisis lectus tempus vel. Curabitur molestie nunc hendrerit, tempor elit vitae, aliquet nisi. Nam vel ligula ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia lorem sit amet varius dictum. Duis mattis sagittis leo. Cras eu est et turpis pharetra pulvinar.
-
-Donec tortor leo, hendrerit quis facilisis ac, eleifend id nibh. Cras ut lacinia ex. Nullam facilisis nulla nec lacus congue, sit amet rhoncus ligula varius. Curabitur ornare laoreet nisi, quis maximus ipsum consequat varius. Quisque a orci nulla. Mauris ultrices tortor at augue pretium volutpat. Phasellus orci massa, tincidunt non lectus ut, aliquam lacinia nunc. Integer elit velit, semper vitae felis ut, tincidunt pretium ipsum. Nunc mattis sodales magna quis tristique. Pellentesque commodo eros sed quam lobortis, eu tincidunt odio blandit. Sed nec neque vel leo sagittis malesuada non nec ipsum. Donec elementum, purus ut fermentum venenatis, erat ligula ultrices nibh, quis rhoncus elit felis et ligula. Donec vel rutrum magna, non gravida tellus.
-</p>
-
-
-
-<div class="footer">
-<footer>
-	© 2017 Extensioneers.com
-	</footer>
+<!-- Second Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">ermmm</h3>
+  <h3>ernmm</h3>
 </div>
 
 
+<!-- Third Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">leave me alone</h3>
+  <h3>erm</h3>
+</div>
 
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p> All Assets and Uses of this Website is under copyright under United States Law </p> 
+</footer>
+
+</body>
+</html>
 </body>
 </html>
