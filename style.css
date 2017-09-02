@@ -30,10 +30,12 @@
   .bg-2 { 
       background-color: #06b8ff; /* Dark Blue */
       color: #ffffff;
+
   }
   .bg-3 { 
-      background-color: #f6f6f6; /* White */
-      color: #555555;
+      background-color: #06B8FF; /* White */
+      color: #ffffff;
+
   }
   .bg-4 { 
       background-color: #2f2f2f; /* Black Gray */
@@ -102,3 +104,53 @@
                 font-size: 3em;
                 color: #fff;
                 text-align: center;
+              }
+
+      .cssimage
+      {
+        height: 200px;
+        margin-top: 50px
+      }
+      .htmlimage
+      {
+        height: 200px;
+          margin-top: 50px;
+          margin-right: 50px;
+
+      }
+.thumbnail
+{
+      background-color: #06B8FF; /* White */
+      color: #ffffff;
+
+}
+.p1
+{
+  color: white;
+    font-size: 150%;
+    text-decoration: none;
+}
+.p1:hover
+{
+  text-decoration: underline;
+
+}
+
+.p2
+{
+  height: 500px;
+}
+#h1
+{
+  font-size: 400%;
+}
+#h2
+{
+  font-size: 400%;
+}
+#h3
+{
+  font-size: 200%;
+  -webkit-text-stroke-width: .2px;
+  -webkit-text-stroke-color: black;
+}
