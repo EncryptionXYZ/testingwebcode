@@ -157,12 +157,11 @@
 }
 #btn2
 {
-      margin-top: 400px;
+  margin-top: 400px;
   margin-left: 660px;
 
 } 
 .row
 {
-  border: none;
-  border-style: none;
+ border: 0px solid #ddd;
 }
