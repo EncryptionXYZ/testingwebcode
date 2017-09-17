@@ -1,0 +1,83 @@
+.branding
+{
+	font-size: 17px;
+}
+.showcase
+{
+	background:url('coding1.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 600px;
+
+	padding: 140px 100px;
+	color: orange;
+}
+.showcase h1
+{
+	font-size: 40px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.showcase hr
+{
+	width:500px;
+	margin: auto;
+	border-width: 2px;
+	border-color: white; 
+}
+.showcase p
+{
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+.showcase button
+{
+	margin-top: 30px;
+}
+.subscribe
+{
+	padding: 40px 0;
+}
+.subscribe h2
+{
+	padding: 0;
+	margin: 0;
+}
+.subscribe .fa{
+	font-size: 50px;
+}
+.contact .fa{
+	font-size: 50px;
+}
+.contact
+{
+	padding: 40px 0;
+}
+.contact h2
+{
+	padding: 0;
+	margin: 0;
+}
+.contact .fa{
+	font-size: 50px;
+}
+.videosection
+{
+	padding: 40px 0;
+}
+.videosection .fa{
+	font-size: 50px;
+}
+.writtensection
+{
+	padding: 40px 0;
+}
+.writtensection .fa{
+	font-size: 50px;
+}
+#sec1
+{
+	padding: 0 200px;
+	font-size: 18px;
+}
