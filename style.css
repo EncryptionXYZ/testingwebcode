@@ -62,3 +62,22 @@
 .contact .fa{
 	font-size: 50px;
 }
+.videosection
+{
+	padding: 40px 0;
+}
+.videosection .fa{
+	font-size: 50px;
+}
+.writtensection
+{
+	padding: 40px 0;
+}
+.writtensection .fa{
+	font-size: 50px;
+}
+#sec1
+{
+	padding: 0 200px;
+	font-size: 18px;
+}
